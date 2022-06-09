@@ -29,7 +29,7 @@ int main(int argc, char** argv)
         cout << "Time took to execute " << end - start << "s" << endl;
 
     MPI_Finalize();
-
+ 
     //cout << "Rank " << rank << " exits" << endl;
     return 0;
 }
